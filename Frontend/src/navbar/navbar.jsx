@@ -1,24 +1,24 @@
 import React from 'react';
-import img1 from '../img/download.png';
+import img1 from '../img/bus.svg';
 
 export default function Navbar() {
   return (
-    <div className='container-md'>
-      <nav className="navbar bg-body-tertiary">
-        <div className="container-fluid">
+    <div className='container-fluid-md text-white'>
+      <nav className="navbar bg-body-tertiary  ">
+        <div className="container-fluid navbar-light bg-danger ">
           <a className="navbar-brand" href="#">
             <img
               src={img1}
               alt="Logo"
               width="120"
-              height="60"
+              height="100"
             style={{marginLeft:50}}
             />
           </a>
           <span className="font-weight-bolder font-size-bold">
             <h4>India's No.1 Bus Ticket Booking site</h4>
           </span>
-          <li className="nav-item dropdown" style={{ listStyleType: 'none' }}>
+          <li className="nav-item dropdown me-5 " style={{ listStyleType: 'none' }}>
             <a
               className="nav-link dropdown-toggle"
               href="#"

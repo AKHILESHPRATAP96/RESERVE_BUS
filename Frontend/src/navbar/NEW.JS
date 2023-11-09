@@ -44,3 +44,8 @@
   
 //   console.log(secondMax); // Output: 10
   
+let obj={name:'rohit',age:10}
+
+console.log(obj)
+let x=obj
+console.log(x)
